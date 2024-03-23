@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://kit.fontawesome.com/26d09991f9.js" crossorigin="anonymous"></script>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo.png" class="Logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I am Anzila Bhandari From Nepal.</h1>
+            </div>
+        </div>
+    </div>
+    <!----------about------------>
+
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg">
+
+            </div>
+                <div class="about-col-2">  
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi there! I'm Anzila Bhandari, a passionate frontend developer with a knack for crafting engaging and user-friendly interfaces. I believe in the importance of continous learning and staying curious in an ever-evolving environment. I'm excited about the future of frontend development and endless possibilities it holds. Let's connect and collaborate on bringing your next project to life! </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul> 
+                        <li><span>Frontend Developer</span><br>Web App Development</li>
+                        <li><span>Git and Github</span><br>Hosting git repo and collaborating among developers </li>
+                    </ul>
+                </div>
+                <div class="tab-contents"  id="Certifications">
+                    <ul> 
+                        <li><span>2023</span><br>Git and Github Workshop</li>
+                    </ul>                       
+                </div>
+                <div class="tab-contents"  id="Education">
+                    <ul> 
+                        <li><span>2019 - Current</span><br>Bachelor of Computer Science at Aims College</li>
+                        <li><span>2016 - 2018</span><br>+2 science at Arniko Awasiya Secondary School </li>
+                    </ul>                       
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!----services------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="sevices-List">
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web Design</h2>
+                    <p>Demonstrating proficiency in creating visually appealing and functional website layouts.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Highlighting the ability to design websites that adapt and perform well on various devices and screen sizes.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI Design</h2>
+                    <p>Showcasing skills in crafting intuitive and user-friendly interfaces for web applications.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-----portfolio----->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>SereniMind: Mental Therapy Booking Platform & Support Group Web Application </h3>
+                    <p>The app is user-friendly for booking therapy sessions as well as facilitate community engagement through the Support Group Forums.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>CottageCore: Cafe-inspired Ecommerce Website</h3>
+                    <p>The site provides a range of coffee mixes and flavours and an easy-to-use user interface enabling users to locate and buy their favorite coffee items.</p>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-square-arrow-up-right"></i>anzilabhandari@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9819067601</p>
+            <div class="social-icons">
+               <a href="https://www.facebook.com/anzila.bhandari.75?mibextid=dGKdO6"><i class="fa-brands fa-facebook"></i></a>
+               <a href="https://www.instagram.com/anzilabhandari?igsh=dWN4aHV1eTl1MGk="><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://www.linkedin.com/in/anzila-bhandari-3b3a662b5/"><i class="fa-brands fa-linkedin"></i></a>
+               <a href="https://github.com/AnzilaBhandari"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+            <div class="contact-right"></div>
+            <formt >
+                <input type="text" name="Name" placeholder="Anzila Bhandari" required> 
+                <input type="email" name="email" placeholder="anzilabhandari@gmail.com" required> 
+                <textarea name="Message" rows="6" placeholder="Thank you for visiting my portfolio! I'm excited to connect with you. Whether you have a project in mind, want to collaborate, or simply wish to say hello, I'd love to hear from you. "></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+ 
+</body>
+</html>
